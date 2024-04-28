@@ -14,5 +14,5 @@ This is an open-source translator repository for seamless text translation betwe
 To use the translator, follow these steps:
 
 1. Clone the repository:
-   ```fix
+   ```bash
    git clone https://github.com/your-username/translator.git

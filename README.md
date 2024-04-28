@@ -1,6 +1,6 @@
 # Translator
 
-This is an open-source translator repository for seamless text translation between multiple languages. It is built with [insert technology/framework here].
+This is an open-source translator repository for seamless text translation between multiple languages.
 
 ## Features
 

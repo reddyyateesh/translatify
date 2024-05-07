@@ -40,4 +40,4 @@ For more detailed information and usage examples, please refer to the official [
 Contributions are welcome! Please read the [contributing guidelines](#) before making any changes.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.txt](https://github.com/reddyyateesh/Translatify/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE.txt](https://github.com/reddyyateesh/Translatify/blob/main/LICENSE.txt) file for details.

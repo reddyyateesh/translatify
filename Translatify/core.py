@@ -1,8 +1,8 @@
 import re
 import html
-from typing import Union
 import aiohttp
 import requests
+from typing import Union
 
 def translate(to_translate, from_language="auto", to_language="auto") -> str:
     """

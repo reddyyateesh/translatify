@@ -7,7 +7,7 @@ Translatify is a Python package for translating text into various languages maki
 You can install Translatify using pip:
 
 ```bash
-pip install git+https://github.com/reddyyateesh/Translatify.git
+pip install git+https://github.com/reddyyateesh/translatify.git
 ```
 
 ## Example Usage

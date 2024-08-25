@@ -29,7 +29,7 @@ def translate(to_translate, from_language="auto", to_language="auto") -> str:
 
     return result
 
-async def async_translate(to_translate, from_language="auto", to_language="auto") -> str:
+async def async_translate(to_translate, from_language="auto", to_language="auto", session: aiohttp.ClientSession = None) -> str:
     """
     Returns the translation using Google Translate asynchronously.
     You must shortcut the language you define
@@ -42,7 +42,11 @@ async def async_translate(to_translate, from_language="auto", to_language="auto"
     to_translate: str = aiohttp.helpers.quote(to_translate)
     link: str = base_link % (to_language, from_language, to_translate)
 
-    async with aiohttp.ClientSession() as session:
+    if session is None:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(link) as response:
+                data: str = await response.text()
+    else:
         async with session.get(link) as response:
             data: str = await response.text()
 

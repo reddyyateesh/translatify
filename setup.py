@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name = "Translatify",
+    name = "translatify",
     version = "1.0.0",
     author = "Yateesh Reddy",
     author_email = "reddyyateesh999@gmail.com",
     description = "A translation tool for various languages.",
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    url = "https://github.com/reddyyateesh/Translatify.git",
+    url = "https://github.com/reddyyateesh/translatify.git",
     # packages=["aiohttp", "requests"],
     packages = find_packages(),
     classifiers=[
